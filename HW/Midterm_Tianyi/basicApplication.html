@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title> Supermarket Chains in San Francisco </title>
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+      <div id="intro">
+        <h1>Supermarkets in San Francisco </h1>
+        <p class="main">Where are some supermarket chain stores in San Francisco?</p>
+        <img id="tj" src="http://towncenterplaza.com/images/default-source/store-logos/store-logos/trader-joes.tmb-t-400x400.png?Status=Master&sfvrsn=3" style="width:88px;height:88px;">
+        <img id="wf" src="data:image/png;base64,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" style="width:88px;height:88px;">
+        <img id="sw" src="http://vignette2.wikia.nocookie.net/logopedia/images/f/f4/Safeway.jpg/revision/latest?cb=20110226163544" style="width:88px;height:88px;">
+        <p id="note">Click on the 'Next' button to see more!</p>
+
+      </div>
+      <div id="results" style="display: none;">
+        <h1 class="day-of-week">Day of Week</h1>
+        <p class="main">Your garbage collection day is <span class="day-of-week">
+        Day of Week</span>.</p>
+        <p>Please be sure to leave your garbage outside on <span class="day-of-week">
+        Day of Week</span>. If this week is a federal holiday, leave your
+        garbage outside on the following day.</p>
+      </div>
+      <button id = "previous">Previous</button>
+      <button id = "next">Next</button>
+
+      <canvas id="myChart" width="100" height="100"></canvas>
+      <!-- Add a pie chart  -->
+
+    </div>
+    <!-- Map -->
+    <div id="map" class="map"></div>
+    <!-- Legend -->
+    <!-- <div class="legend">
+          <h3 id="legend"> Legend </h3>
+            <div id="leg1"> </div>
+        <h5  id="mon"> Monday </h4>
+        <div id="leg2"> </div>
+          <h5  id="tue"> Tuesday </h3>
+          <div id="leg3"> </div>
+            <h5  id="wed"> Wednesday </h3>
+            <div id="leg4"> </div>
+              <h5  id="thu"> Thursday </h3>
+              <div id="leg5"> </div>
+                <h5  id="fri"> Friday </h3>
+
+      </div> -->
+
+
+
+    <!-- Start Javascript Imports -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js"></script>
+    <script src="jquery-2.2.0.js"></script>
+    <script src="underscore.js"></script>
+    <script src="leaflet.js"></script>
+    <script src="basicApplication.js"></script>
+    <!-- End Javascript Imports -->
+
+  </body>
+</html>

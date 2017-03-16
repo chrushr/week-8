@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    overflow: hidden;
+    font-family: colfax, helvetica, arial, sans-serif;
+}
+
+p.main {
+  font-size: 24px;
+}
+
+.map {
+    position: absolute;
+    right: 0px;
+    left: 400px;
+    height: 100%;
+    top: 0;
+}
+
+.sidebar {
+    position: absolute;
+    left: 0px;
+    width: 400px;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    padding: 20px;
+    font-size: 16px;
+}
+
+
+.legend {
+  position: absolute;
+  left:450px;
+  background-color: #fff;
+  height:250px;
+  width: 150px;
+  z-index: 2000;
+}
+
+#legend {
+  left: 20px;
+  position:relative;
+}
+
+#leg1 {
+  width:30px;
+  height: 20px;
+  background-color:red;
+  /*opacity:40%;*/
+  float:right;
+  right: 20px;
+  position:relative;
+}
+
+#leg2 {
+  width:30px;
+  height: 20px;
+  background-color:yellow;
+  float:right;
+  right: 20px;
+  position:relative;
+}
+
+#leg3 {
+  width:30px;
+  height: 20px;
+  background-color:green;
+  float:right;
+  right: 20px;
+  position:relative;
+}
+
+#leg4 {
+  width:30px;
+  height: 20px;
+  background-color:blue;
+  float:right;
+  right: 20px;
+  position:relative;
+}
+
+#leg5 {
+  width:30px;
+  height: 20px;
+  background-color:purple;
+  float:right;
+  right: 20px;
+  position:relative;
+}
+
+#mon {
+  left: 20px;
+  position:relative;
+}
+
+#tue {
+  left: 20px;
+  position:relative;
+}
+
+#wed {
+  left: 20px;
+  position:relative;
+}
+
+#thu {
+  left: 20px;
+  position:relative;
+}
+
+#fri {
+  left: 20px;
+  position:relative;
+}
